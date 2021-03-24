@@ -1,1 +1,320 @@
+body {
+  color: rgb(0, 20, 39)!important;
+}
 
+p {
+  font-size: 1.2em;
+}
+
+a {
+  color: rgb(112, 141, 129);
+}
+
+a:hover {
+  color: #5c2018;
+}
+
+/**Header Styles**/
+
+.header {
+  border-bottom: .1em solid #5c2018;
+}
+
+.headerLogoHolder {
+  border:0px solid red;
+  display: inline-block;
+  position: relative;
+  margin-left: 0em;
+  padding-right: 0em!important;
+  padding: none!important;
+  padding-top: .8em;
+  padding-bottom: .8em;
+}
+.headerLogoHolder img{
+  position:relative;
+  float: left;
+  width: 15em;
+  margin: 0em!important;
+  margin-left: 0em;
+  padding: none!important;
+}
+
+nav {
+  display: block;
+  margin: auto auto;
+  right: 0;
+}
+
+.nav-right > .nav-item > a:hover {
+  border-bottom:.02em solid #DEA01E!important;
+}
+
+.giveOnline a {
+  border: 1px solid #DEA01E;
+}
+
+.giveOnline a:hover {
+  background-color: #eee;
+}
+
+
+.verticalLineHolder {
+  border:1px solid red;
+  margin-left: -1em;
+}
+
+
+p.verticalLine {
+  border:.03em solid #DEA01E;
+  background-color: #DEA01E;
+  display: inline-block;
+  position:relative;
+  margin: auto 0;
+  min-height: 8em;
+}
+
+
+/*Main Content Styles*/
+#mainContentDiv {
+  margin-top: 10em; 
+  padding: 0em;
+}
+
+.churchImageBackground,
+.liveStreamBackground {
+  background-size: cover;
+  background-position-y: center;  
+  border-bottom:.15em solid #5c2018;
+  height: 35em;
+  width: 100%;
+  text-align: center;
+}
+
+.churchImageBackground {
+  background-image: url(../images/sunsetEffect.png);
+}
+
+.liveStreamBackground {
+  background-image: url(../images/sunsetEffect.png);
+}
+
+.bannerContainer {
+  display: inline-block;
+  position: relative;
+  margin: auto auto!important;
+
+}
+
+.welcomeTextContainerHolder {
+background-color:#001427;
+width: 41em;
+opacity: 1;
+position: absolute;
+width: 100%;
+height: 35em;
+opacity: .29;
+}
+
+.welcomeTextContainer {
+  border:.07em solid #fff;
+  display: inline-block;
+  position: relative;
+  margin: auto auto!important;
+  width: 41em;
+  height: 18em;
+  padding: .7em; 
+}
+
+.welcomeLineOne {
+  font-family:'AlegreyaRegular';
+  font-size: 4.4em;
+  font-weight: lighter;
+  letter-spacing: .031em;
+  /*color: #5c2018;*/
+  color: #fff;
+  text-shadow: 1px 3px 1px #112A46;
+  display: inline-block;
+}
+
+.welcomeLineTwo {
+  display: block;
+  font-weight: 500;
+  font-size: .95em;
+  margin-top: -2.7em;
+  color: #fff;    
+  text-shadow: .04em .02em 0em #000;
+}
+
+.welcomeLineThree {
+  display: block;
+  color:#e8f1f2;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.9em;
+  line-height: 1.2em;
+  margin-top: -.5em;
+  text-shadow: .05em .05em .05em #000;
+}
+
+.welcomeLineFour {
+  display: block;
+  font-weight: 500;
+  font-size: .9em;
+  margin-top: -1em;
+  letter-spacing: .8mm;
+  color: #DEA01E;
+  text-shadow: .03em .03em 0em #fff;
+}
+
+.bannerButtonsContainer{
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.bannerButtonsContainer button {
+  background-color: #eee;
+  border-radius: 0em;
+  border: solid #FFF 1px; 
+	box-shadow: 0 6px 5px rgba(0, 0, 0, 0.4)  ; 
+	-webkit-box-shadow: 0 6px 5px rgba(0, 0, 0, 0.4)  ; 
+	-moz-box-shadow: 0 6px 5px rgba(0, 0, 0, 0.4)  ; 
+  color: #5c2018;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 1em 2em;
+  text-shadow: .02em .02em .02em rgba(150, 150, 150, 1);
+}
+
+.bannerButtonsContainer button:hover {
+  /*color: #708d81;*/
+  background-color: #f5e3bc;
+  font-weight:bolder;
+  /*box-shadow: 1px -2px 5px #5c2018 inset; 
+	-webkit-box-shadow: 1px -2px 5px #5c2018 inset; 
+	-moz-box-shadow: 1px -2px 0px #5c2018 inset;*/
+}
+
+.missionStatement {
+  text-align: center; 
+}
+
+.missionStatement h1 {
+  font-size: 1.4em;
+  margin: auto auto;
+  padding-top: 2em;
+  width: 60%;
+}
+
+.cardHolder {
+  width: 70%;
+  margin: auto auto;
+  padding-bottom: 3em;
+}
+
+.card {
+  width: 30%;
+  border:.03em solid rgb(0, 20, 39);
+  border-radius: 0px!important;
+}
+
+.sabbathSchoolPicHolder {
+  min-height: 15em;
+  margin: none;
+  background-image: url('../images/sabbathSchoolPic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 2em;
+}
+
+.sabbathSchoolPicHolder img {
+  position: absolute;
+  margin-top: 4em;
+  opacity: .8;
+}
+
+.weeklyStudyPicHolder {
+  min-height: 15em;
+  margin: none;
+  background-image: url('../images/sincerely-media-dGxOgeXAXm8-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 2em;
+}
+
+.weeklyStudyPicHolder img {
+  position: absolute;
+  margin-top: 4em;
+  opacity: .8;
+}
+
+
+/* FOOTER STYES */
+
+#footer {
+  background-color: rgb(0, 20, 39);
+  height: 12em;
+  align-items: center;
+  position: relative;
+  padding-left: 3em;
+  padding-right: 4em;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  margin-top: 2em;
+}
+
+#churchAddress {
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: .75em;
+  letter-spacing: .15em;
+}
+
+#churchAddress a {
+  color: #DEA01E;
+}
+
+#churchAddress a:hover{
+  color: #f5e3bc;
+}
+
+#groundZeroIG {
+  display: block;
+  font-size: .25em;
+  position: absolute;
+  width: 10em;
+  right: 3.5em;
+  top: 9.3em;
+}
+
+.socialMediaLinks {
+  color: #fff;
+  display: block;
+  float: right;
+  font-size: 2.5em;
+  margin-left: 2.5em;
+}
+
+.socialMediaLinks a {
+  color: #fff;
+}
+
+i:hover {
+  color: #f5e3bc;
+}
+
+.groundZeroIcon {
+  width: .95em;
+  margin-top: .41em;
+  padding: none;
+  border-radius: .26em;
+}
+
+.groundZeroIcon:hover {
+  background-color: #f5e3bc;
+}
